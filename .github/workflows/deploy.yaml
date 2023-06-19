@@ -4,9 +4,9 @@
 name: REACT CI
 
 on:
-  push:
+  push: 
     branches:
-      - main # change to the branch you wish to deploy from
+      - "main"
 
 permissions:
   contents: read

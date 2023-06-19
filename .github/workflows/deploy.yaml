@@ -4,7 +4,7 @@
 name: REACT CI
 
 on:
-  push:
+  pull_request:
     branches:
       - "main" # change to the branch you wish to deploy from
 

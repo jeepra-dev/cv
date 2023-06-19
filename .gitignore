@@ -11,6 +11,9 @@
 # production
 /build
 
+# workflow
+/.github
+
 # misc
 .DS_Store
 .env.local

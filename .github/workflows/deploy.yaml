@@ -4,14 +4,15 @@
 name: REACT CI
 
 on:
-  pull_request:
+  push: 
     branches:
-      - 'main' # change to the branch you wish to deploy from
+      - "main"
 
 permissions:
   contents: read
   pages: write
   id-token: write
+
 
 jobs:
   deploy:

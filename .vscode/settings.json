@@ -1,0 +1,12 @@
+{
+  "workbench.colorTheme": "Abyss",
+  "workbench.iconTheme": "eq-material-theme-icons-light",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "eslint.validate": ["javascript", "typescript"],
+  "editor.formatOnPaste": true
+}

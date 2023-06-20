@@ -23,10 +23,10 @@ jobs:
     outputs:
       page_url: https://jeepra-dev.github.io/cv
     steps:
-    - name: Set PUBLIC_URL
-      run: echo "PUBLIC_URL=https://jeepra-dev.github.io/cv" >> $GITHUB_ENV
-    - uses: actions/checkout@v2
-    - id: build-publish
-      uses: bitovi/github-actions-react-to-ghp@v1.2.0
-      with:
-        path: build # change to your build folder
+      - name: Set PUBLIC_URL
+        run: echo "PUBLIC_URL=https://jeepra-dev.github.io/cv" >> $GITHUB_ENV
+      - uses: actions/checkout@v2
+      - id: build-publish
+        uses: bitovi/github-actions-react-to-ghp@v1.2.0
+        with:
+          path: build # change to your build folder

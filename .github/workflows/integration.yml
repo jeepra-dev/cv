@@ -1,0 +1,8 @@
+
+
+name: REACT CI
+on:
+  push:
+    branches:
+    - main
+

@@ -23,8 +23,8 @@ jobs:
     steps:      
     - uses: actions/checkout@v2
     - id: build-publish
+      uses: bitovi/github-actions-react-to-ghp@v1.2.0
       env: 
           PUBLIC_URL: https://jeepra-dev.github.io/cv"
-      uses: bitovi/github-actions-react-to-ghp@v1.2.0
       with:
         path: build # change to your build folder

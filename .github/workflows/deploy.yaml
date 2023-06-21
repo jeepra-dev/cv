@@ -25,6 +25,6 @@ jobs:
     - id: build-publish
       uses: bitovi/github-actions-react-to-ghp@v1.2.0
       env: 
-          PUBLIC_URL: https://jeepra-dev.github.io/cv"
+          PUBLIC_URL: https://jeepra-dev.github.io/cv
       with:
         path: build # change to your build folder

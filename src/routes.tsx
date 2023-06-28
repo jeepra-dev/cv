@@ -5,13 +5,14 @@ import Resume from './components/resume/resume'
 export interface LinkItem {
   path: string
   name: string
-  element: () => React.ReactNode
+  component: React.ReactNode
+  index?: boolean
 }
 
-export const allRoutes: LinkItem[] = [
-  { path: 'hero', name: 'Home', element: Hero },
+export const routes: LinkItem[] = [
+  { path: 'hero', name: 'Home', component: <Hero />, index: true },
   //{ path: 'social', name: 'My Social' },
-  { path: 'resume-experience', name: 'Experience', element: () => <Resume /> },
+  { path: 'resume-experience', name: 'Experience', component: <Resume /> },
   //{ path: 'resume-education', name: 'Education' },
   //{ path: 'review', name: 'Review' },
   //{ path: 'portfolio', name: 'Portfolio' },

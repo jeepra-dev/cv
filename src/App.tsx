@@ -1,16 +1,21 @@
 import React from 'react'
-import './App.css'
-import { Button } from '@mui/material'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Layout from './Layout'
+import Hero from './components/hero/hero'
+import { routes } from './routes'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div>
-          <Button variant="contained">Hello World</Button>
-        </div>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Hero />} />
+          {routes.map((item) => (
+            <Route index path={item.path} element={item.component} />
+          ))}
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

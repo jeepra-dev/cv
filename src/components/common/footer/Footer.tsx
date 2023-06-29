@@ -8,7 +8,7 @@ function Footer() {
     <div className="footer">
       <AppBar position="static" sx={{ p: 1.5, mt: 2 }}>
         <Typography variant="subtitle2" gutterBottom>
-          Copyright ©2023 All rights reserved | MMamadou SALL & Ibrahima DIALLO
+          Copyright ©2023 All rights reserved | Mamadou SALL & Ibrahima DIALLO
         </Typography>
       </AppBar>
     </div>

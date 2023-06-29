@@ -1,15 +1,12 @@
 import React from 'react'
 import './App.css'
 import { Button } from '@mui/material'
+import MainPage from './pages/main-page/MainPage'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div>
-          <Button variant="contained">Hello World</Button>
-        </div>
-      </header>
+      <MainPage />
     </div>
   )
 }

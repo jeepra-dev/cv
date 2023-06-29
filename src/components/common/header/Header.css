@@ -1,0 +1,10 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 40px;
+}
+
+.header-button {
+  display: flex;
+  padding: 10px;
+}

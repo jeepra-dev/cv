@@ -1,0 +1,23 @@
+.banderole-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vh;
+  margin-top: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: start;
+}
+
+.banderole-presentation {
+  margin-bottom: 50px;
+}
+
+.left-banderole {
+  min-width: 50%;
+  padding-right: 20px;
+}
+
+.right-banderole {
+  margin-top: 10px;
+}
